@@ -1,0 +1,70 @@
+.flutuante{
+    position: absolute;
+    width: 100%;
+    top: 900px
+}
+
+.flutuante-container{
+    background-color: var(--branco);
+    margin: 0 auto;
+    width: 900px;
+    height: 395px;
+    border-radius: 20px;
+    display: flex;
+}
+.img-flutuante{
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3),  rgba(0, 0, 0, 0.4)), url(./img/pessoas1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.text-flutuante{
+    width: 50%;
+    height: 100%;
+}
+.text-container{
+    padding-top: 30px;
+    margin: 30px;
+    padding-left: 10px;
+}
+.text-flutuante h2{
+    color: #3d383a;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.text-flutuante small{
+    color: #978b91;
+    font-size: 1.2rem;
+    border-bottom: solid 5px var(--azul-escuro);
+    padding-bottom: 10px;
+}
+
+.text-flutuante p{
+    color: #3d383a;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.text-flutuante a{
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--branco);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 45px;
+    padding-right: 45px;
+    
+    background-color: var(--azul-escuro);
+    border-radius: 50px;
+}
+.text-flutuante a:hover{
+    background-color: var(--azul-verde);
+}

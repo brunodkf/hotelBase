@@ -1,0 +1,49 @@
+.destaque {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../css/img/manaus.jpg) center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: var(--branco);
+    width: 100%;
+    height: 520px;
+    padding-top: 12em;
+
+}
+.destaque-container{
+    width: 75%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.destaque small{
+    font-size: 1rem;
+    padding-bottom: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.destaque h2{
+    font-size: 3.2rem;
+    font-weight: bolder;
+    padding-bottom: 50px;
+}
+.destaque p{
+    padding-bottom: 90px;
+}
+
+.destaque a{
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--branco);
+    width: 45%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    background-color: var(--azul-escuro);
+    border-radius: 50px;
+}
+.destaque a:hover{
+    background-color: var(--azul-verde);
+}

@@ -1,0 +1,12 @@
+:root{
+    --branco: #F0F1F2;
+    --azul-escuro: #115D8C;
+    --azul-mais-escuro: #11538C;
+    --azul-transparente: #141e3069;
+    --azul-claro: #05DBF2;
+    --azul-verde: #0396A6;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--branco);
+}
